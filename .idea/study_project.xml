@@ -71,7 +71,7 @@
                       </option>
                       <option name="index" value="1" />
                       <option name="name" value="Hello, world!" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234720" />
                       <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
@@ -101,7 +101,7 @@
                                       <option name="placeholderText" value="TODO()" />
                                       <option name="possibleAnswer" value="&quot;OK&quot;" />
                                       <option name="selected" value="true" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
@@ -141,9 +141,9 @@
                       </option>
                       <option name="index" value="2" />
                       <option name="name" value="Java to Kotlin conversion" />
-                      <option name="status" value="Unchecked" />
+                      <option name="status" value="Solved" />
                       <option name="stepId" value="234721" />
-                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
                       <option name="taskFiles">
                         <map>
                           <entry key="src/JavaCode.java">
@@ -152,7 +152,7 @@
                                 <option name="answerPlaceholders">
                                   <list />
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/JavaCode.java" />
                                 <option name="text" value="import java.util.Collection;&#10;import java.util.Iterator;&#10;&#10;public class JavaCode {&#10;    public String toJSON(Collection&lt;Integer&gt; collection) {&#10;        StringBuilder sb = new StringBuilder();&#10;        sb.append(&quot;[&quot;);&#10;        Iterator&lt;Integer&gt; iterator = collection.iterator();&#10;        while (iterator.hasNext()) {&#10;            Integer element = iterator.next();&#10;            sb.append(element);&#10;            if (iterator.hasNext()) {&#10;                sb.append(&quot;, &quot;);&#10;            }&#10;        }&#10;        sb.append(&quot;]&quot;);&#10;        return sb.toString();&#10;    }&#10;}" />
                                 <option name="trackChanges" value="true" />
@@ -181,19 +181,19 @@
                                         </MyInitialState>
                                       </option>
                                       <option name="initializedFromDependency" value="false" />
-                                      <option name="length" value="56" />
+                                      <option name="length" value="359" />
                                       <option name="offset" value="0" />
                                       <option name="placeholderDependency" />
                                       <option name="placeholderText" value="fun toJSON(collection: Collection&lt;Int&gt;): String = TODO()" />
                                       <option name="possibleAnswer" value="fun toJSON(collection: Collection&lt;Int&gt;): String {&#10;    val sb = StringBuilder()&#10;    sb.append(&quot;[&quot;)&#10;    val iterator = collection.iterator()&#10;    while (iterator.hasNext())&#10;    {&#10;        val element = iterator.next()&#10;        sb.append(element)&#10;        if (iterator.hasNext())&#10;        {&#10;            sb.append(&quot;, &quot;)&#10;        }&#10;    }&#10;    sb.append(&quot;]&quot;)&#10;    return sb.toString()&#10;}" />
-                                      <option name="selected" value="false" />
-                                      <option name="status" value="Unchecked" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
                                       <option name="studentAnswer" />
                                       <option name="useLength" value="true" />
                                     </AnswerPlaceholder>
                                   </list>
                                 </option>
-                                <option name="highlightErrors" value="false" />
+                                <option name="highlightErrors" value="true" />
                                 <option name="name" value="src/Task.kt" />
                                 <option name="text" value="fun toJSON(collection: Collection&lt;Int&gt;): String = TODO()&#10;" />
                                 <option name="trackChanges" value="true" />
