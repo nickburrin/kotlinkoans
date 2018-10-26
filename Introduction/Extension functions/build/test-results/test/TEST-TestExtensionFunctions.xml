@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestExtensionFunctions" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-10-24T00:07:36" hostname="Nicks-MacBook-Pro.local" time="0.012">
-  <properties/>
-  <testcase name="testPairExtension" classname="TestExtensionFunctions" time="0.011"/>
-  <testcase name="testIntExtension" classname="TestExtensionFunctions" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
