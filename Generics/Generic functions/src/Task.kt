@@ -1,8 +1,8 @@
 import java.util.*
 
-fun <T, C: MutableCollection<T>> Collection<T>.partitionTo(first: C, second: C, predicate: (T) -> Boolean) : Pair<C, C>{
-    for(element in this){
-        if(predicate(element)) {
+fun <T, C: MutableCollection<T>> Collection<T>.partitionTo(first: C, second: C, predicate: (T) -> Boolean) : Pair<C, C> {
+    for (element in this) {
+        if (predicate(element)) {
             first.add(element)
         } else {
             second.add(element)
